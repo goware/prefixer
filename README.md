@@ -2,6 +2,8 @@
 [Golang](http://golang.org/)'s [io.Reader](http://golang.org/pkg/io/#Reader) wrapper prepending every line with a given string.
 
 [![GoDoc](https://godoc.org/github.com/pressly/prefixer?status.png)](https://godoc.org/github.com/pressly/prefixer)
+[![Travis](https://travis-ci.org/pressly/prefixer.svg?branch=master)](https://travis-ci.org/pressly/prefixer)
+
 
 ## Use cases
 1. Logger that prefixes every line with a timestamp etc.
