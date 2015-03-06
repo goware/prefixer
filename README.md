@@ -43,7 +43,7 @@
 
 See the ["Prefix Line Reader" example](./example).
 
-```
+```go
 package main
 
 import (
