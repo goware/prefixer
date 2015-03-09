@@ -33,8 +33,8 @@ func (r *Prefixer) Read(p []byte) (n int, err error) {
 			m := copy(p[n:], r.unread)
 			n += m
 			r.unread = r.unread[m:]
-			if m < len(r.unread) {
-				return n, io.ErrShortBuffer
+			if len(r.unread) > 0 {
+				return n, nil
 			}
 		}
 
