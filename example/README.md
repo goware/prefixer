@@ -5,7 +5,7 @@ See [prefix.go](./prefix.go).
 ## Build "prefix" binary
 
 ```bash
-$ git clone https://github.com/pressly/prefixer.git
+$ git clone https://github.com/goware/prefixer.git
 $ cd prefixer/example
 $ go build -o prefix
 ```
@@ -15,18 +15,18 @@ $ go build -o prefix
 Create an email reply (`"> "` prefix) from any text easily:
 
 ```bash
-$ ./prefix 
+$ ./prefix
 Dear John,               
-did you know that https://github.com/pressly/prefixer is a golang pkg
+did you know that https://github.com/goware/prefixer is a golang pkg
 that prefixes every line with a given string and accepts any io.Reader?
 
 Cheers,
 - Jane
 ^D     
 > Dear John,               
-> did you know that https://github.com/pressly/prefixer is a golang pkg
+> did you know that https://github.com/goware/prefixer is a golang pkg
 > that prefixes every line with a given string and accepts any io.Reader?
-> 
+>
 > Cheers,
 > - Jane
 ```

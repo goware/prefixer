@@ -1,8 +1,8 @@
 # Prefixer
 [Golang](http://golang.org/)'s [io.Reader](http://golang.org/pkg/io/#Reader) wrapper prepending every line with a given string.
 
-[![GoDoc](https://godoc.org/github.com/pressly/prefixer?status.png)](https://godoc.org/github.com/pressly/prefixer)
-[![Travis](https://travis-ci.org/pressly/prefixer.svg?branch=master)](https://travis-ci.org/pressly/prefixer)
+[![GoDoc](https://godoc.org/github.com/goware/prefixer?status.png)](https://godoc.org/github.com/goware/prefixer)
+[![Travis](https://travis-ci.org/goware/prefixer.svg?branch=master)](https://travis-ci.org/goware/prefixer)
 
 
 ## Use cases
@@ -23,18 +23,18 @@
 
 3. Create an email reply (`"> "` prefix) from any text easily.
     ```bash
-    $ ./prefix 
+    $ ./prefix
     Dear John,               
-    did you know that https://github.com/pressly/prefixer is a golang pkg
+    did you know that https://github.com/goware/prefixer is a golang pkg
     that prefixes every line with a given string and accepts any io.Reader?
 
     Cheers,
     - Jane
     ^D     
     > Dear John,               
-    > did you know that https://github.com/pressly/prefixer is a golang pkg
+    > did you know that https://github.com/goware/prefixer is a golang pkg
     > that prefixes every line with a given string and accepts any io.Reader?
-    > 
+    >
     > Cheers,
     > - Jane
     ```
@@ -50,7 +50,7 @@ import (
     "io/ioutil"
     "os"
 
-    "github.com/pressly/prefixer"
+    "github.com/goware/prefixer"
 )
 
 func main() {

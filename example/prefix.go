@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/pressly/prefixer"
+	"github.com/goware/prefixer"
 )
 
 func main() {

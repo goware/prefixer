@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pressly/prefixer"
+	"github.com/goware/prefixer"
 )
 
 var prefix = "Some prefix | "
